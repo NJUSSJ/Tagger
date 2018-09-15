@@ -1,29 +1,28 @@
 package com.nju.Applicaiton;
 
+import com.nju.Service.BaiduAuthService;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-import sun.applet.Main;
 
 /**
  * @Author shisj
  * @Date: 2018/9/4 20:30
  */
 public class MainApp extends Application {
-
-    public static final String APP_ID = "11786132";
-    public static final String API_KEY = "iK5CpBGE5ZZEDIrdvUHN837a";
-    public static final String SECRET_KEY = "yF6fC3M6kRGl5y8W2NzqPj5nGunVmFRi";
     public static Stage primaryStage;
+    public static String access_token;
 
     public static void main(String[] args){
         launch(args);
+
     }
 
     @Override
     public void start(Stage primaryStage) throws Exception {
+        MainApp.access_token = BaiduAuthService.getAuth();
         MainApp.primaryStage = primaryStage;
         Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("fxml/Main.fxml"));
         Scene scene = new Scene(root);

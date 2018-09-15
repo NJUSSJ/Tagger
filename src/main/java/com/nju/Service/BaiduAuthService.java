@@ -6,8 +6,6 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
-import java.util.List;
-import java.util.Map;
 
 /**
  * @Author shisj
@@ -27,16 +25,17 @@ public class BaiduAuthService {
                 + "grant_type=client_credentials"
                 + "&client_id="+ak
                 + "&client_secret="+sk;
-
         try{
             URL realUrl = new URL(getAccessTokenUrl);
             HttpURLConnection connection = (HttpURLConnection)realUrl.openConnection();
             connection.setRequestMethod("GET");
             connection.connect();
+            /*
             Map<String, List<String>> map = connection.getHeaderFields();
             for (String key: map.keySet()){
                 System.err.println(key + "--->" + map.get(key));
             }
+            */
             BufferedReader reader = new BufferedReader(new InputStreamReader(connection.getInputStream()));
             String result = "";
             String line;

@@ -6,7 +6,6 @@ import com.nju.Applicaiton.MainApp;
 import com.nju.DataDservice.PaintDataService;
 import com.nju.Domain.Paint;
 import javafx.stage.FileChooser;
-import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
 
 import java.io.*;
 
