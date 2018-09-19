@@ -97,7 +97,8 @@ public class Paint {
         }catch (Exception e){
             e.printStackTrace();
         }
-        if(cutImage(src, dest, snapthotRect)){
+        boolean cutImageSuccess = cutImage(src, dest, snapthotRect);
+        if(cutImageSuccess){
             return recognizeImage(dest, MainApp.access_token);
         }
         //非法标注清除标框
