@@ -12,6 +12,7 @@ import javafx.stage.Stage;
  * @Date: 2018/9/4 20:30
  */
 public class MainApp extends Application {
+
     public static Stage primaryStage;
     public static String access_token;
 
