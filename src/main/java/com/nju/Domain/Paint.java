@@ -86,7 +86,7 @@ public class Paint {
      * @param snapthotRect
      * @return
      */
-    public String saveAsPng(Canvas canvas, GraphicsContext graphicsContext, Rectangle snapthotRect){
+    public String tagChosenRect(Canvas canvas, GraphicsContext graphicsContext, Rectangle snapthotRect){
         WritableImage wim = new WritableImage(900,600);
         canvas.snapshot(null, wim);
 

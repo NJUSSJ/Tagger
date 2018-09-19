@@ -174,7 +174,7 @@ public class MainController implements Initializable {
                 stroke.removeAllPoints();
                 paint.addStroke(tmpStroke);
             }else if(ibutton3.getIsUp() == 1){
-                String rev = paint.saveAsPng(canvas, graphicsContext, new Rectangle((int)Math.ceil(tagRect.getOriginPoint().getX()), (int)Math.floor(tagRect.getOriginPoint().getY()), (int)Math.floor(tagRect.getWidth()), (int)Math.floor(tagRect.getHeight())));
+                String rev = paint.tagChosenRect(canvas, graphicsContext, new Rectangle((int)Math.ceil(tagRect.getOriginPoint().getX()), (int)Math.floor(tagRect.getOriginPoint().getY()), (int)Math.floor(tagRect.getWidth()), (int)Math.floor(tagRect.getHeight())));
                 if (rev != null){
                     String mark = showTagDialog(tagRect, graphicsContext, rev);
                     if(mark != null){
