@@ -35,7 +35,7 @@ public class BaiduAuthService {
             connection.connect();
             Map<String, List<String>> map = connection.getHeaderFields();
             for (String key: map.keySet()){
-                System.err.println(key + "--->" + map.get(key));
+                System.out.println(key + "--->" + map.get(key));
             }
             BufferedReader reader = new BufferedReader(new InputStreamReader(connection.getInputStream()));
             String result = "";
