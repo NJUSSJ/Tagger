@@ -56,7 +56,7 @@ public class TagRect {
         return mark;
     }
 
-    public void setMark(String mark) {
+    public void setMark(String mark){
         this.mark = mark;
     }
 
@@ -104,7 +104,7 @@ public class TagRect {
         Color color = (Color) graphicsContext.getStroke();
         graphicsContext.setStroke(Color.BLACK);
         graphicsContext.setLineWidth(1);
-        graphicsContext.setFont(new Font("Georgia", 20));
+        graphicsContext.setFont(new Font("Microsoft YaHei", 20));
         graphicsContext.strokeText(mark, originPoint.getX()+10, originPoint.getY()+20);
         graphicsContext.setLineWidth(strokeWidth);
         graphicsContext.setStroke(color);

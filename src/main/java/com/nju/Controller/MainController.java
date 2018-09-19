@@ -1,16 +1,14 @@
 package com.nju.Controller;
 
-import com.baidu.aip.imageclassify.AipImageClassify;
 import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXNodesList;
-import com.nju.Applicaiton.MainApp;
 import com.nju.DataDservice.DataServiceImpl.PaintDataServiceImp;
 import com.nju.DataDservice.PaintDataService;
-import com.nju.UIDomain.Button;
 import com.nju.Domain.Paint;
 import com.nju.Domain.Point;
 import com.nju.Domain.Stroke;
 import com.nju.Domain.TagRect;
+import com.nju.UIDomain.Button;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -19,7 +17,6 @@ import javafx.geometry.Pos;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.control.TextInputDialog;
-import javafx.scene.input.MouseDragEvent;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.StackPane;
 import javafx.scene.paint.Color;
@@ -42,8 +39,6 @@ public class MainController implements Initializable {
     private Canvas canvas;
 
     private Paint paint = new Paint();
-    private ArrayList<Stroke> shapes = paint.getShapes();
-    private ArrayList<TagRect> tags = paint.getTags();
     private PaintDataService dataService = new PaintDataServiceImp();
 
     @Override
@@ -82,11 +77,16 @@ public class MainController implements Initializable {
         JFXButton button9 = ibutton9.getButton();
         button9.getStyleClass().add("animated-option-sub-button3");
 
+        Button ibutton10 = new Button("新", "新建文件", 1);
+        JFXButton button10 = ibutton10.getButton();
+        button10.getStyleClass().add("animated-option-sub-button3");
+
         JFXNodesList nodesList2 = new JFXNodesList();
         nodesList2.setSpacing(10);
         nodesList2.addAnimatedNode(button7);
         nodesList2.addAnimatedNode(button8);
         nodesList2.addAnimatedNode(button9);
+        nodesList2.addAnimatedNode(button10);
         nodesList2.setRotate(270);
 
         JFXNodesList nodesList1 = new JFXNodesList();
@@ -139,11 +139,12 @@ public class MainController implements Initializable {
             paint = dataService.getSavedPaint();
             if(paint != null){
                 graphicsContext.clearRect(0,0, canvas.getWidth(), canvas.getHeight());
-                tags = paint.getTags();
-                shapes = paint.getShapes();
                 paint.restoreAll(graphicsContext);
             }
-
+        });
+        button10.addEventHandler(MouseEvent.MOUSE_CLICKED, event -> {
+            graphicsContext.clearRect(0,0, canvas.getWidth(), canvas.getHeight());
+            paint = new Paint();
         });
         /*
         添加画布监听
@@ -171,14 +172,16 @@ public class MainController implements Initializable {
             if (ibutton2.getIsUp() == 1){
                 Stroke tmpStroke = new Stroke(stroke);//对当前笔画进行深拷贝
                 stroke.removeAllPoints();
-                shapes.add(tmpStroke);
+                paint.addStroke(tmpStroke);
             }else if(ibutton3.getIsUp() == 1){
                 String rev = paint.saveAsPng(canvas, graphicsContext, new Rectangle((int)Math.ceil(tagRect.getOriginPoint().getX()), (int)Math.floor(tagRect.getOriginPoint().getY()), (int)Math.floor(tagRect.getWidth()), (int)Math.floor(tagRect.getHeight())));
                 if (rev != null){
-                    String mark = showTagDialog(tagRect, graphicsContext);
-                    TagRect tmpRect = new TagRect(tagRect);
-                    tmpRect.addRemark(graphicsContext, mark);
-                    tags.add(tmpRect);
+                    String mark = showTagDialog(tagRect, graphicsContext, rev);
+                    if(mark != null){
+                        TagRect tmpRect = new TagRect(tagRect);
+                        tmpRect.addRemark(graphicsContext, mark);
+                        paint.addTagRect(tmpRect);
+                    }
                 }
             }
         });
@@ -201,14 +204,13 @@ public class MainController implements Initializable {
             setButtonDown(button1);
         }
     }
-    private String showTagDialog(TagRect rect, GraphicsContext graphicsContext){
-        TextInputDialog inputDialog = new TextInputDialog("标注");
+    private String showTagDialog(TagRect rect, GraphicsContext graphicsContext, String recommend){
+        TextInputDialog inputDialog = new TextInputDialog(recommend);
         inputDialog.setTitle("在这里对图像进行标注");
-        inputDialog.setHeaderText("推荐标注为： ");
+        inputDialog.setHeaderText("推荐标注为： "+recommend);
         inputDialog.setContentText("您的标注：");
         Optional<String> result = inputDialog.showAndWait();
         if(result.isPresent()){
-            System.out.println(result.get());
             return result.get();
         }else{
             rect.clearRect(graphicsContext);

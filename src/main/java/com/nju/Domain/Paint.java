@@ -1,7 +1,10 @@
 package com.nju.Domain;
 
-import com.baidu.aip.imageclassify.AipImageClassify;
-import com.nju.Service.BaiduAuthService;
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONArray;
+import com.alibaba.fastjson.JSONObject;
+import com.nju.Applicaiton.MainApp;
+import com.nju.Service.ImageBase64Service;
 import javafx.embed.swing.SwingFXUtils;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.canvas.GraphicsContext;
@@ -15,6 +18,9 @@ import javax.imageio.stream.ImageInputStream;
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.*;
+import java.net.HttpURLConnection;
+import java.net.URL;
+import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 
 /**
@@ -27,20 +33,12 @@ public class Paint {
 
     private ArrayList<TagRect> tags = new ArrayList<>();
 
-    public ArrayList<Stroke> getShapes() {
-        return shapes;
+    public void addTagRect(TagRect tagRect){
+        this.tags.add(tagRect);
     }
 
-    public void setShapes(ArrayList<Stroke> shapes) {
-        this.shapes = shapes;
-    }
-
-    public ArrayList<TagRect> getTags() {
-        return tags;
-    }
-
-    public void setTags(ArrayList<TagRect> tags) {
-        this.tags = tags;
+    public void addStroke(Stroke stroke){
+        this.shapes.add(stroke);
     }
 
     /**
@@ -65,9 +63,7 @@ public class Paint {
      * @param graphicsContext
      */
     public void resetLastRect(GraphicsContext graphicsContext){
-        if(tags.size() == 0){
-            return;
-        }
+        if(tags.size() == 0) return;
         TagRect tmpRect = tags.get(tags.size() - 1);
         tmpRect.clearRect(graphicsContext);
         tags.remove(tags.size() - 1);
@@ -87,23 +83,22 @@ public class Paint {
      * 存储标注部分为图片
      * @param canvas
      * @param graphicsContext
-     * @param client
      * @param snapthotRect
      * @return
      */
     public String saveAsPng(Canvas canvas, GraphicsContext graphicsContext, Rectangle snapthotRect){
-        WritableImage wim = new WritableImage(600,450);
+        WritableImage wim = new WritableImage(900,600);
         canvas.snapshot(null, wim);
 
-        File file = new File(getClass().getClassLoader().getResource("img/test.png").getPath());
+        File src = new File(getClass().getClassLoader().getResource("img/src.png").getPath());
+        File dest = new File(getClass().getClassLoader().getResource("img/dest.png").getPath());
         try {
-            ImageIO.write(SwingFXUtils.fromFXImage(wim,null), "png", file);
+            ImageIO.write(SwingFXUtils.fromFXImage(wim,null), "png", src);
         }catch (Exception e){
             e.printStackTrace();
         }
-        if(cutImage(file.getPath(), file.getPath(), snapthotRect)){
-            BaiduAuthService.getAuth();
-            return "";
+        if(cutImage(src, dest, snapthotRect)){
+            return recognizeImage(dest, MainApp.access_token);
         }
         //非法标注清除标框
         TagRect rect = new TagRect();
@@ -111,6 +106,7 @@ public class Paint {
         rect.setWidth(snapthotRect.getWidth());
         rect.setHeight(snapthotRect.getHeight());
         rect.clearRect(graphicsContext);
+        restoreAll(graphicsContext);
         return null;
     }
 
@@ -129,24 +125,20 @@ public class Paint {
         }
     }
 
-    private boolean cutImage(String src, String dest, java.awt.Rectangle snapshotRect){
-        File srcFile = new File(src);
-        File destFile = new File(dest);
+    private boolean cutImage(File srcFile, File destFile, java.awt.Rectangle snapshotRect){
         try {
             FileInputStream fileInputStream= new FileInputStream(srcFile);
             ImageInputStream imageInputStream = ImageIO.createImageInputStream(fileInputStream);
             ImageReader reader = ImageIO.getImageReadersBySuffix("png").next();
             reader.setInput(imageInputStream, true);
+
             ImageReadParam param = reader.getDefaultReadParam();
             param.setSourceRegion(snapshotRect);//截取
             BufferedImage bufferedImage = reader.read(0, param);
-            fileInputStream.close();
             FileOutputStream fileOutputStream= new FileOutputStream(destFile.getPath());
             ImageIO.write(bufferedImage, "png", fileOutputStream);
+            fileInputStream.close();
             fileOutputStream.close();
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-            return false;
         } catch (IOException e) {
             e.printStackTrace();
             return false;
@@ -159,4 +151,56 @@ public class Paint {
         return true;
     }
 
+    private String recognizeImage(File file, String access_token){
+        String imageBase64 = ImageBase64Service.getBase64OfImage(file);
+        JSONObject jsonObject = new JSONObject();
+        jsonObject.put("image", imageBase64);
+        String image = jsonObject.toJSONString();
+        String requestUrl = "https://aip.baidubce.com/rpc/2.0/ai_custom/v1/classification/shape" + "?access_token=" + access_token;
+        try {
+            //发送HTTP JSON请求
+            URL realUrl = new URL(requestUrl);
+            HttpURLConnection connection = (HttpURLConnection) realUrl.openConnection();
+            connection.setDoInput(true);
+            connection.setDoOutput(true);
+            connection.setUseCaches(false);
+            connection.setInstanceFollowRedirects(true);
+            connection.setRequestProperty("Content-Type", "application/json");
+            connection.setRequestMethod("POST");
+            connection.connect();
+
+            //读取结果
+            OutputStream outputStream = connection.getOutputStream();
+            outputStream.write(image.getBytes(StandardCharsets.UTF_8));
+            BufferedReader reader = new BufferedReader(new InputStreamReader(connection.getInputStream()));
+            String result = "";
+            String line = null;
+            while((line = reader.readLine()) != null){
+                result += line;
+            }
+            JSONObject resultJSONObject = JSON.parseObject(result);
+            JSONArray category = resultJSONObject.getJSONArray("results");
+            JSONObject categoryResult = category.getJSONObject(0);
+            return categoryResult.getString("name");
+        } catch (IOException e){
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+    public ArrayList<Stroke> getShapes() {
+        return shapes;
+    }
+
+    public void setShapes(ArrayList<Stroke> shapes) {
+        this.shapes = shapes;
+    }
+
+    public ArrayList<TagRect> getTags() {
+        return tags;
+    }
+
+    public void setTags(ArrayList<TagRect> tags) {
+        this.tags = tags;
+    }
 }
