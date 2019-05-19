@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a496443b-aa84-4f6e-8b35-49de4f7fd50f" name="Default Changelist" comment="">
+    <list default="true" id="3c355c89-53c3-4559-9d49-0c7394861c16" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nju/Service/BaiduAuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nju/Service/BaiduAuthService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/test.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/img/test.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nju/Service/ImageBase64Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nju/Service/ImageBase64Service.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,260 +13,36 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="784894368">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="6" />
-          <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.11" value="2" />
-          <entry key="project.open.time.12" value="2" />
-          <entry key="project.open.time.13" value="2" />
-          <entry key="project.open.time.15" value="1" />
-          <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="10" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="class" value="2" />
-          <entry key="css" value="113" />
-          <entry key="fxml" value="60" />
-          <entry key="java" value="15227" />
-          <entry key="xml" value="264" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="CLASS" value="2" />
-          <entry key="CSS" value="113" />
-          <entry key="JAVA" value="15227" />
-          <entry key="XML" value="324" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.js.language.service.starts" />
-      <usages-collector id="statistics.spring.boot.run.usages" />
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="5" />
-          <entry key="CSS" value="4" />
-          <entry key="Image" value="24" />
-          <entry key="JAVA" value="34" />
-          <entry key="XML" value="5" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="class" value="5" />
-          <entry key="css" value="4" />
-          <entry key="fxml" value="5" />
-          <entry key="java" value="34" />
-          <entry key="png" value="24" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.spring.boot.mvc.usages" />
-    </session>
-    <session id="-379120362">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.22" value="1" />
-          <entry key="project.open.time.23" value="1" />
-          <entry key="project.open.time.26" value="1" />
-          <entry key="project.opened" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="29" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.spring.boot.mvc.usages" />
-      <usages-collector id="statistics.spring.boot.run.usages" />
-      <usages-collector id="statistics.js.language.service.starts" />
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="1" />
-          <entry key="XML" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="fxml" value="1" />
-          <entry key="java" value="1" />
-          <entry key="xml" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="29" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/Service/BaiduAuthService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="47" column="71" selection-start-line="47" selection-start-column="71" selection-end-line="47" selection-end-column="71" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#getAuth#0;class#BaiduAuthService#0" />
-=======
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/Domain/TagRect.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="58" column="35" selection-start-line="58" selection-start-column="35" selection-end-line="58" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="docComment;class#TagRect#0" />
-                <element signature="method#TagRect#1;class#TagRect#0" />
-                <element signature="method#setSize#0;class#TagRect#0" />
-                <element signature="method#drawRect#0;class#TagRect#0" />
-                <element signature="method#clearRect#0;class#TagRect#0" />
-                <element signature="method#addRemark#0;class#TagRect#0" />
->>>>>>> f70b313b24aed0a2b5b723e7eb8c77ba795986c2
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/Domain/Stroke.java">
-          <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="255">
-=======
-            <state relative-caret-position="285">
->>>>>>> f70b313b24aed0a2b5b723e7eb8c77ba795986c2
-              <caret line="33" column="59" selection-start-line="33" selection-start-column="59" selection-end-line="33" selection-end-column="59" />
-              <folding>
-                <element signature="docComment;class#Stroke#0" />
-                <element signature="method#Stroke#0;class#Stroke#0" />
-                <element signature="method#Stroke#1;class#Stroke#0" />
-                <element signature="method#drawStroke#0;class#Stroke#0" />
-                <element signature="method#clearStroke#0;class#Stroke#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/Domain/TagRect.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="538">
-              <caret line="100" column="71" selection-start-line="100" selection-start-column="71" selection-end-line="100" selection-end-column="71" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#setSize#0;class#TagRect#0" />
-                <element signature="method#drawRect#0;class#TagRect#0" />
-                <element signature="method#clearRect#0;class#TagRect#0" />
-                <element signature="method#addRemark#0;class#TagRect#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/DataDservice/PaintDataService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/DataDservice/DataServiceImpl/PaintDataServiceImp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="46" column="33" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#savePaintAsTxt#0;class#PaintDataServiceImp#0" />
-                <element signature="method#getSavedPaint#0;class#PaintDataServiceImp#0" />
-                <element signature="method#convertPaintToText#0;class#PaintDataServiceImp#0" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/Applicaiton/MainApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="25" column="59" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
-=======
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/Applicaiton/MainApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="7" selection-start-line="7" selection-end-line="9" />
->>>>>>> f70b313b24aed0a2b5b723e7eb8c77ba795986c2
-              <folding>
-                <element signature="method#main#0;class#MainApp#0" />
-                <element signature="method#start#0;class#MainApp#0" />
-              </folding>
+            <state relative-caret-position="200">
+              <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/Controller/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="44" column="35" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
-              <folding>
-                <element signature="docComment;class#MainController#0" />
-                <element signature="method#setButtonUp#0;class#MainController#0" />
-                <element signature="method#setButtonDown#0;class#MainController#0" />
-                <element signature="method#buttonHandler#0;class#MainController#0" />
-                <element signature="method#showTagDialog#0;class#MainController#0" />
-              </folding>
+            <state relative-caret-position="158">
+              <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/Main.fxml">
-          <provider selected="true" editor-type-id="text-editor" />
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/UIDomain/Button.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-=======
         <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/DataDservice/DataServiceImpl/PaintDataServiceImp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
->>>>>>> f70b313b24aed0a2b5b723e7eb8c77ba795986c2
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#getSavedPaint#0;class#PaintDataServiceImp#0" />
-                <element signature="method#convertPaintToText#0;class#PaintDataServiceImp#0" />
-              </folding>
+            <state relative-caret-position="160">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -276,78 +50,58 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/Domain/Paint.java">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
+            <state relative-caret-position="-2962">
+              <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/Domain/Point.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-=======
-            <state relative-caret-position="384">
-              <caret line="198" selection-start-line="198" selection-end-line="198" />
->>>>>>> f70b313b24aed0a2b5b723e7eb8c77ba795986c2
-              <folding>
-                <element signature="docComment;method#resetLastStep#0;class#Paint#0" />
-                <element signature="method#resetLastStep#0;class#Paint#0" />
-                <element signature="docComment;method#resetLastRect#0;class#Paint#0" />
-                <element signature="method#resetLastRect#0;class#Paint#0" />
-                <element signature="docComment;method#restoreAll#0;class#Paint#0" />
-                <element signature="method#restoreAll#0;class#Paint#0" />
-                <element signature="docComment;method#saveAsPng#0;class#Paint#0" />
-                <element signature="method#saveAsPng#0;class#Paint#0" />
-                <element signature="method#restoreStrokes#0;class#Paint#0" />
-                <element signature="method#restoreRects#0;class#Paint#0" />
-                <element signature="method#cutImage#0;class#Paint#0" />
-                <element signature="method#recognizeImage#0;class#Paint#0" />
-              </folding>
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/Domain/Stroke.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="158">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/Domain/TagRect.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-682">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/Service/BaiduAuthService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-510">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/Controller/MainController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/Service/ImageBase64Service.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="219" column="5" lean-forward="true" selection-start-line="219" selection-start-column="5" selection-end-line="219" selection-end-column="5" />
-              <folding>
-                <element signature="docComment;class#MainController#0" />
-                <element signature="e#3555#3622#0" />
-                <element signature="e#3683#3749#0" />
-                <element signature="e#4198#4268#0" />
-                <element signature="e#4329#4399#0" />
-                <element signature="e#4498#4565#0" />
-                <element signature="e#4626#4963#0" />
-                <element signature="e#5092#5130#0" />
-                <element signature="e#5061#5286#0" />
-                <element signature="e#5346#5875#0" />
-                <element signature="e#5936#6873#0" />
-                <element signature="method#setButtonUp#0;class#MainController#0" />
-                <element signature="method#setButtonDown#0;class#MainController#0" />
-                <element signature="method#buttonHandler#0;class#MainController#0" />
-                <element signature="method#showTagDialog#0;class#MainController#0" />
-              </folding>
+            <state relative-caret-position="190">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="CSS File" />
-        <option value="FxmlFile" />
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>button</find>
-<<<<<<< HEAD
-      <find>shapes</find>
-=======
-      <find>Sys</find>
->>>>>>> f70b313b24aed0a2b5b723e7eb8c77ba795986c2
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -355,40 +109,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/jfoenix-componets.css" />
-        <option value="$PROJECT_DIR$/src/main/resources/jfoenix-design.css" />
-        <option value="$PROJECT_DIR$/src/main/resources/Main.fxml" />
-        <option value="$PROJECT_DIR$/src/main/resources/fxml/Main.fxml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nju/domain/Point.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nju/domain/Stroke.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nju/domain/TagRect.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nju/UiDomain/Button.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/css/jfoenix-components.css" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nju/domain/Paint.java" />
-<<<<<<< HEAD
-        <option value="$PROJECT_DIR$/src/main/java/com/nju/Domain/TagRect.java" />
-=======
->>>>>>> f70b313b24aed0a2b5b723e7eb8c77ba795986c2
-        <option value="$PROJECT_DIR$/src/main/java/DataDservice/PaintDataService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nju/DataDservice/PaintDataService.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nju/Domain/Stroke.java" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/nju/Service/ImageBase64Service.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nju/Service/BaiduAuthService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nju/Applicaiton/MainApp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nju/DataDservice/DataServiceImpl/PaintDataServiceImp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nju/Domain/Paint.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nju/Domain/TagRect.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nju/Controller/MainController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nju/Service/BaiduAuthService.java" />
       </list>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -413,44 +137,17 @@
       <select />
     </treeState>
   </component>
-<<<<<<< HEAD
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="797" />
-=======
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="950" />
     <option name="width" value="980" />
-    <option name="height" value="1040" />
->>>>>>> f70b313b24aed0a2b5b723e7eb8c77ba795986c2
-  </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State />
-          <State>
-            <id>Maven</id>
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>MavenModelInspection</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
+    <option name="height" value="1090" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-<<<<<<< HEAD
-=======
-      <pane id="AndroidView" />
->>>>>>> f70b313b24aed0a2b5b723e7eb8c77ba795986c2
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -491,9 +188,24 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="nju" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-              <item name="Domain" type="462c0819:PsiDirectoryNode" />
-=======
+              <item name="Applicaiton" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Tagger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tagger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="nju" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Tagger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tagger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="nju" type="462c0819:PsiDirectoryNode" />
               <item name="DataDservice" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -505,40 +217,38 @@
               <item name="nju" type="462c0819:PsiDirectoryNode" />
               <item name="DataDservice" type="462c0819:PsiDirectoryNode" />
               <item name="DataServiceImpl" type="462c0819:PsiDirectoryNode" />
->>>>>>> f70b313b24aed0a2b5b723e7eb8c77ba795986c2
+            </path>
+            <path>
+              <item name="Tagger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tagger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="nju" type="462c0819:PsiDirectoryNode" />
+              <item name="Domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Tagger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tagger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="nju" type="462c0819:PsiDirectoryNode" />
+              <item name="Service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SONARLINT_ANALYSIS_RESULTS_SCOPE" value="VCS changed files" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-<<<<<<< HEAD
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536677223082" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557398719982" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-=======
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536999328963" />
-    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/SceneBuilder/SceneBuilder.exe" />
->>>>>>> f70b313b24aed0a2b5b723e7eb8c77ba795986c2
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\shisj\Desktop\Tagger\src\main\resources\img" />
-      <recent name="C:\Users\shisj\Desktop\Tagger\src\main\resources\css" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -577,542 +287,129 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a496443b-aa84-4f6e-8b35-49de4f7fd50f" name="Default Changelist" comment="" />
-      <created>1536062481986</created>
+      <changelist id="3c355c89-53c3-4559-9d49-0c7394861c16" name="Default Changelist" comment="" />
+      <created>1557388368581</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1536062481986</updated>
-      <workItem from="1536062490197" duration="16005000" />
-      <workItem from="1536123287357" duration="19264000" />
-      <workItem from="1536210014760" duration="4227000" />
-      <workItem from="1536222787613" duration="19251000" />
-      <workItem from="1536302765228" duration="9211000" />
-      <workItem from="1536372984913" duration="15889000" />
-      <workItem from="1536466302813" duration="14153000" />
-<<<<<<< HEAD
-      <workItem from="1536537672094" duration="2773000" />
-      <workItem from="1536712164108" duration="642000" />
-      <workItem from="1536753334305" duration="33000" />
-=======
-      <workItem from="1536640193932" duration="4258000" />
-      <workItem from="1536645750752" duration="9000000" />
-      <workItem from="1536757888621" duration="3570000" />
->>>>>>> f70b313b24aed0a2b5b723e7eb8c77ba795986c2
+      <updated>1557388368581</updated>
+      <workItem from="1557388369906" duration="1139000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-<<<<<<< HEAD
-    <option name="totallyTimeSpent" value="101448000" />
-=======
-    <option name="totallyTimeSpent" value="114828000" />
->>>>>>> f70b313b24aed0a2b5b723e7eb8c77ba795986c2
+    <option name="totallyTimeSpent" value="1139000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="797" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <layout>
-<<<<<<< HEAD
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2360515" />
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Learn" order="7" weight="0.3297568" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Statistic" />
+      <window_info anchor="bottom" id="SonarLint" visible="true" weight="0.3297587" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Messages" weight="0.3297587" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.36605892" />
-=======
-      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="1" />
-      <window_info id="Designer" order="2" />
-      <window_info id="UI Designer" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.20241287" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3611111" />
->>>>>>> f70b313b24aed0a2b5b723e7eb8c77ba795986c2
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3297587" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Spring" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32954547" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32258064" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Maven" weight="0.3297587" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" weight="0.24731903" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.54363376" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/json/json/20160810/json-20160810.jar!/org/json/JSONObject.class</url>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/function/BiFunction.java" />
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/util/function/BiFunction.java" />
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/javafx.graphics/javafx/animation/KeyValue.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Main.fxml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/Controller/Controller.java" />
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/main/resources/css/jfoenix-design.css" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/jfoenix/jfoenix/9.0.1/jfoenix-9.0.1.jar!/com/jfoenix/controls/JFXButton.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/img/test.png" />
-    <entry file="file://$PROJECT_DIR$/target/classes/test.png" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/css/jfoenix-components.css" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baidu/aip/java-sdk/4.5.0/java-sdk-4.5.0.jar!/com/baidu/aip/client/BaseClient.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baidu/aip/java-sdk/4.5.0/java-sdk-4.5.0.jar!/com/baidu/aip/imageclassify/AipImageClassify.class" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/javafx-src.zip!/javafx/scene/shape/Rectangle.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/awt/Rectangle.java" />
-    <entry file="file://$PROJECT_DIR$/target/classes/img/test.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/Domain/Point.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/Service/PaintDataServive.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-=======
-    <entry file="file://$PROJECT_DIR$/src/main/resources/css/jfoenix-design.css">
+    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/jfoenix/jfoenix/9.0.1/jfoenix-9.0.1.jar!/com/jfoenix/controls/JFXButton.class">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/Applicaiton/MainApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="35" column="65" selection-start-line="35" selection-start-column="65" selection-end-line="35" selection-end-column="65" />
+        <state relative-caret-position="200">
+          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/test.png" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/css/jfoenix-components.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="380" column="25" lean-forward="true" selection-start-line="380" selection-start-column="25" selection-end-line="380" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baidu/aip/java-sdk/4.5.0/java-sdk-4.5.0.jar!/com/baidu/aip/client/BaseClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1710">
-          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baidu/aip/java-sdk/4.5.0/java-sdk-4.5.0.jar!/com/baidu/aip/imageclassify/AipImageClassify.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="16" column="44" lean-forward="true" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/javafx-src.zip!/javafx/scene/shape/Rectangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="116" column="11" selection-start-line="116" selection-start-column="11" selection-end-line="116" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/awt/Rectangle.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/Controller/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
-          <caret line="214" column="29" lean-forward="true" selection-start-line="214" selection-start-column="29" selection-end-line="214" selection-end-column="29" />
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/DataDservice/DataServiceImpl/PaintDataServiceImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/Domain/Paint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2962">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/Domain/Point.java">
->>>>>>> f70b313b24aed0a2b5b723e7eb8c77ba795986c2
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="885">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/Service/BaiduAuthService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="47" column="71" selection-start-line="47" selection-start-column="71" selection-end-line="47" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#getAuth#0;class#BaiduAuthService#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/Domain/Stroke.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="33" column="59" selection-start-line="33" selection-start-column="59" selection-end-line="33" selection-end-column="59" />
-          <folding>
-            <element signature="docComment;class#Stroke#0" />
-            <element signature="method#Stroke#0;class#Stroke#0" />
-            <element signature="method#Stroke#1;class#Stroke#0" />
-            <element signature="method#drawStroke#0;class#Stroke#0" />
-            <element signature="method#clearStroke#0;class#Stroke#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/DataDservice/PaintDataService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/DataDservice/DataServiceImpl/PaintDataServiceImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="46" column="33" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#savePaintAsTxt#0;class#PaintDataServiceImp#0" />
-            <element signature="method#getSavedPaint#0;class#PaintDataServiceImp#0" />
-            <element signature="method#convertPaintToText#0;class#PaintDataServiceImp#0" />
-=======
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/Service/PaintDataServive.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1121">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/json/json/20160810/json-20160810.jar!/org/json/JSONObject.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#34448#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/Service/BaiduAuthService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#getAuth#0;class#BaiduAuthService#0" />
-            <element signature="method#getAuth#1;class#BaiduAuthService#0" />
->>>>>>> f70b313b24aed0a2b5b723e7eb8c77ba795986c2
-          </folding>
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/Applicaiton/MainApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="25" column="59" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#start#0;class#MainApp#0" />
-=======
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/Service/ImageBase64Service.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/Main.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/img/src.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/img/test.png" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/img/dest.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/img/src.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/img/dest.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/UIDomain/Button.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Button#0;class#Button#0" />
->>>>>>> f70b313b24aed0a2b5b723e7eb8c77ba795986c2
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/DataDservice/PaintDataService.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="195">
-          <caret line="44" column="35" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
-          <folding>
-            <element signature="docComment;class#MainController#0" />
-            <element signature="method#setButtonUp#0;class#MainController#0" />
-            <element signature="method#setButtonDown#0;class#MainController#0" />
-            <element signature="method#buttonHandler#0;class#MainController#0" />
-            <element signature="method#showTagDialog#0;class#MainController#0" />
-=======
-        <state relative-caret-position="171">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/Domain/Stroke.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="33" column="59" selection-start-line="33" selection-start-column="59" selection-end-line="33" selection-end-column="59" />
-          <folding>
-            <element signature="docComment;class#Stroke#0" />
-            <element signature="method#Stroke#0;class#Stroke#0" />
-            <element signature="method#Stroke#1;class#Stroke#0" />
-            <element signature="method#drawStroke#0;class#Stroke#0" />
-            <element signature="method#clearStroke#0;class#Stroke#0" />
->>>>>>> f70b313b24aed0a2b5b723e7eb8c77ba795986c2
-          </folding>
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/Main.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/UIDomain/Button.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-=======
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/Applicaiton/MainApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="7" selection-start-line="7" selection-end-line="9" />
-          <folding>
-            <element signature="method#main#0;class#MainApp#0" />
-            <element signature="method#start#0;class#MainApp#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/Domain/TagRect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="58" column="35" selection-start-line="58" selection-start-column="35" selection-end-line="58" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#TagRect#0" />
-            <element signature="method#TagRect#1;class#TagRect#0" />
-            <element signature="method#setSize#0;class#TagRect#0" />
-            <element signature="method#drawRect#0;class#TagRect#0" />
-            <element signature="method#clearRect#0;class#TagRect#0" />
-            <element signature="method#addRemark#0;class#TagRect#0" />
->>>>>>> f70b313b24aed0a2b5b723e7eb8c77ba795986c2
-          </folding>
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/Domain/Paint.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-=======
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/DataDservice/DataServiceImpl/PaintDataServiceImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#getSavedPaint#0;class#PaintDataServiceImp#0" />
-            <element signature="method#convertPaintToText#0;class#PaintDataServiceImp#0" />
-          </folding>
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/Domain/Paint.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/Domain/Stroke.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="198" selection-start-line="198" selection-end-line="198" />
-          <folding>
->>>>>>> f70b313b24aed0a2b5b723e7eb8c77ba795986c2
-            <element signature="docComment;method#resetLastStep#0;class#Paint#0" />
-            <element signature="method#resetLastStep#0;class#Paint#0" />
-            <element signature="docComment;method#resetLastRect#0;class#Paint#0" />
-            <element signature="method#resetLastRect#0;class#Paint#0" />
-            <element signature="docComment;method#restoreAll#0;class#Paint#0" />
-            <element signature="method#restoreAll#0;class#Paint#0" />
-            <element signature="docComment;method#saveAsPng#0;class#Paint#0" />
-            <element signature="method#saveAsPng#0;class#Paint#0" />
-            <element signature="method#restoreStrokes#0;class#Paint#0" />
-            <element signature="method#restoreRects#0;class#Paint#0" />
-            <element signature="method#cutImage#0;class#Paint#0" />
-<<<<<<< HEAD
-=======
-            <element signature="method#recognizeImage#0;class#Paint#0" />
->>>>>>> f70b313b24aed0a2b5b723e7eb8c77ba795986c2
-          </folding>
+        <state relative-caret-position="158">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/Domain/TagRect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="100" column="71" selection-start-line="100" selection-start-column="71" selection-end-line="100" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#setSize#0;class#TagRect#0" />
-            <element signature="method#drawRect#0;class#TagRect#0" />
-            <element signature="method#clearRect#0;class#TagRect#0" />
-            <element signature="method#addRemark#0;class#TagRect#0" />
-=======
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/Controller/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="219" column="5" lean-forward="true" selection-start-line="219" selection-start-column="5" selection-end-line="219" selection-end-column="5" />
-          <folding>
-            <element signature="docComment;class#MainController#0" />
-            <element signature="e#3555#3622#0" />
-            <element signature="e#3683#3749#0" />
-            <element signature="e#4198#4268#0" />
-            <element signature="e#4329#4399#0" />
-            <element signature="e#4498#4565#0" />
-            <element signature="e#4626#4963#0" />
-            <element signature="e#5092#5130#0" />
-            <element signature="e#5061#5286#0" />
-            <element signature="e#5346#5875#0" />
-            <element signature="e#5936#6873#0" />
-            <element signature="method#setButtonUp#0;class#MainController#0" />
-            <element signature="method#setButtonDown#0;class#MainController#0" />
-            <element signature="method#buttonHandler#0;class#MainController#0" />
-            <element signature="method#showTagDialog#0;class#MainController#0" />
->>>>>>> f70b313b24aed0a2b5b723e7eb8c77ba795986c2
-          </folding>
+        <state relative-caret-position="-682">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>10</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>Tagger</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: junit:junit:4.12</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/Service/BaiduAuthService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-510">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nju/Service/ImageBase64Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

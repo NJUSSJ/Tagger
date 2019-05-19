@@ -1,0 +1,14 @@
+
+6squid:S1643"Use a StringBuilder instead.(÷‰İ ıÿÿÿÿ
+csquid:S4042"IUse "java.nio.Files#delete" here for better messages on error conditions.(²Œ­ûÿÿÿÿ
+asquid:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(©Œµ±
+fsquid:S2095"LUse try-with-resources or close this "BufferedWriter" in a "finally" clause.(¤éÍŒıÿÿÿÿ
+wsquid:S1488"]Immediately return this expression instead of assigning it to the temporary variable "paint".(éëú¾úÿÿÿÿ
+|squid:S1488"bImmediately return this expression instead of assigning it to the temporary variable "jsonString".(ÁÜØ¾úÿÿÿÿ
+msquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(ºÜ’²
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+T
+squid:S899";Do something with the "boolean" value returned by "delete".(²Œ­ûÿÿÿÿ
+[
+squid:S899"BDo something with the "boolean" value returned by "createNewFile".(Ğ’Íùÿÿÿÿ

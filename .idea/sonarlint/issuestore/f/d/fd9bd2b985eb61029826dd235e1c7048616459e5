@@ -1,0 +1,7 @@
+
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+:squid:S2129" Remove this "String" constructor(Æ›Þîùÿÿÿÿ
+_squid:S2674"JCheck the return value of the "read" call to see how many bytes were read.(•¦Š§
+Jsquid:S1191"5Use classes from the Java API instead of Sun classes.(—øÛÖ
+Osquid:S1118":Add a private constructor to hide the implicit public one.(ë…±‡
+msquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(ŠÙ¹‘

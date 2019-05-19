@@ -1,0 +1,11 @@
+
+qsquid:S1192"\Define a constant instead of duplicating this literal "animated-option-sub-button3" 5 times.(˜™Ğ„
+lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(ÛŒ¦…ıÿÿÿÿ
+Asquid:S1602",Remove useless curly braces around statement(ïÖş
+Fsquid:S1602",Remove useless curly braces around statement(³Ì¾şÿÿÿÿ
+Asquid:S1602",Remove useless curly braces around statement(ŒÛÑ
+Fsquid:S1602",Remove useless curly braces around statement(õó¼«øÿÿÿÿ
+Fsquid:S1602",Remove useless curly braces around statement(Ó‘ó¯ûÿÿÿÿ
+msquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(‚ß³¿
+Xsquid:UselessImportCheck"6Remove this unused import 'javafx.event.EventHandler'.(º»û˜
+Rsquid:UselessImportCheck"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ

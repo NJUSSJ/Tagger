@@ -1,0 +1,12 @@
+
+6squid:S1643"Use a StringBuilder instead.(¦í°—øÿÿÿÿ
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¡îÎð
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(¬Ì‡†
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(ŒûË…
+xsquid:S1488"dImmediately return this expression instead of assigning it to the temporary variable "access_token".(ÜèË$
+Osquid:S1118":Add a private constructor to hide the implicit public one.(×£ž
+fsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜèË$
+msquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(ŠÙ¹‘
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ

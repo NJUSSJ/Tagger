@@ -1,0 +1,14 @@
+
+6squid:S1643"Use a StringBuilder instead.(¦í°—øÿÿÿÿ
+csquid:S2095"NUse try-with-resources or close this "ImageInputStream" in a "finally" clause.(·È„ 
+…squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ƒ£Ïž
+†squid:S1319"qThe type of the "shapes" object should be an interface such as "List" rather than the implementation "ArrayList".(Úý±®
+Šsquid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".( ¯Ç‹øÿÿÿÿ
+‰squid:S1319"oThe type of the "tags" object should be an interface such as "List" rather than the implementation "ArrayList".(Ô±ñ®øÿÿÿÿ
+gsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­Éåà
+msquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(íºÍÄ
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+Ssquid:S1155">Use isEmpty() to check whether the collection is empty or not.(©Ø
+Ssquid:S1155">Use isEmpty() to check whether the collection is empty or not.(ê¸²‰
